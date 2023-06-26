@@ -191,7 +191,7 @@ After Enabling this, we need to restart the computer.
        
 **WARNING**: This exercise **will only work on Windows** since it's specific to the way Windows manages packages.
 
-# Environment Variables
+# Powershell Environment Variables
 
 In any programming language, you can store data within variables. However they only exist as long as the program is executed, but what if you wanted to share information between two applications not running at the same time?
 
