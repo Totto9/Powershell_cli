@@ -180,13 +180,13 @@ This command is not available on Win10 Enterprise. Only on Server versions.
 
 Use this command: `Get-WindowsOptionalFeature -Online`
 
-![image]()
+- Install a new feature such as hyper-v with Install-WindowsFeature
 
-  - Install a new feature such as hyper-v with Install-WindowsFeature
-
- It actually needs to be enabled, as you can see in the screenshot above.
+ It actually needs to be enabled.
 `Enable-WindowsOptionalFeature -FeatureName Microsoft-Hyper-V-All -Online`
 
-After Enabling this, the computer will need a restart.
+![image](https://github.com/Totto9/Powershell_cli/blob/main/Screenshot%20from%202023-06-26%2014-07-45.png)
+
+After Enabling this, we need to restart the computer.
        
 **WARNING**: This exercise **will only work on Windows** since it's specific to the way Windows manages packages.
