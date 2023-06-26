@@ -135,7 +135,7 @@ It's time to start installing software and keep them updated. We will see how to
 `Install-Module -Name PSWindowsUpdate`
 => In order to run the command Get-WindowsUpdate (below), we need to enable PowerShell scripts to run. For that, we need to run the command `Set-ExecutionPolicy RemoteSigned` and Type "A" to accept all. 
 
-![image](https://github.com/gustavoalito/BeCode/assets/133368766/030d6b17-8979-4c73-be6c-4f49075d40c8)
+![image]()
 
     - Type `Get-WindowsUpdate` to check for updates
     - Type `Install-WindowsUpdate` to install updates
