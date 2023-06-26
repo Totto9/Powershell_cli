@@ -174,7 +174,7 @@ Ref.: https://docs.chocolatey.org/en-us/why
 - Manage Windows Features
     - Get installed Windows features with the command `Get-WindowsFeature`
 
-This command is not available on Win10 Enterprise. Only on Server versions.
+This command is not available on Win10 Home. Only on Server versions.
 
     - Install a new feature such as hyper-v with `Install-WindowsFeature`
 
