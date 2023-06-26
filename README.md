@@ -151,7 +151,7 @@ From https://chocolatey.org/install, you need to run the following script: `Set-
     - Install `VLC` from `Chocolatey`
 `choco install vlc`
 
-![image]()
+![image](https://github.com/Totto9/Powershell_cli/blob/main/Screenshot%20from%202023-06-26%2012-18-09.png)
 
     - Upgrade `VLC` to the latest version (it should already be but it's your first use)
 
