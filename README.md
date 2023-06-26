@@ -135,10 +135,8 @@ It's time to start installing software and keep them updated. We will see how to
 `Install-Module -Name PSWindowsUpdate`
 => In order to run the command Get-WindowsUpdate (below), we need to enable PowerShell scripts to run. For that, we need to run the command `Set-ExecutionPolicy RemoteSigned` and Type "A" to accept all. 
 
-![image]()
-
-    - Type `Get-WindowsUpdate` to check for updates
-    - Type `Install-WindowsUpdate` to install updates
+Type `Get-WindowsUpdate` to check for updates
+Type `Install-WindowsUpdate` to install updates
 
 - Manage Packages
 
@@ -148,7 +146,7 @@ Chocolatey or Choco as it is sometimes referred to, is a free, open-source packa
 
 From https://chocolatey.org/install, you need to run the following script: `Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))`
 
-![image]()
+![image](https://github.com/Totto9/Powershell_cli/blob/main/Screenshot%20from%202023-06-26%2011-56-56.png)
 
     - Install `VLC` from `Chocolatey`
 `choco install vlc`
