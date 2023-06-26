@@ -123,7 +123,7 @@ This will prompt the user to type in the Administrator's password. Once typed in
 
 `Get-Acl Alice.txt`
 
-# Powershell Package Management
+# Package Management
 
 It's time to start installing software and keep them updated. We will see how to use Chocolatey and how to use Windows Updates.
 
