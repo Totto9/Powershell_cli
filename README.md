@@ -101,13 +101,13 @@ Now that we can navigate and create files, we should be able to change permissio
 - Change the file owner to the built-in administrator (administrator account is disabled by default, check how to enable it. Don't forget to set a strong password!)
 
 The usual way:
-`$acl = Get-Acl Gustavo.txt
+`$acl = Get-Acl Alice.txt
 $acl.setOwner([System.Security.Principal.NTAccount]::new("Administrator"))
 Set-Acl Alice.txt $acl
 Get-Acl Alice.txt`
 - Check the file's permission
 
-![image] 
+![image](https://github.com/Totto9/Powershell_cli/blob/main/Screenshot%20from%202023-06-26%2010-42-42.png) 
 - Try to print the content of the file as your normal user
 
 `Nothing happens.`
