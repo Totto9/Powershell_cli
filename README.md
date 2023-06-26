@@ -157,13 +157,13 @@ From https://chocolatey.org/install, you need to run the following script: `Set-
 
 `choco upgrade vlc`
 
-![image](https://github.com/Totto9/Powershell_cli/blob/main/Screenshot%20from%202023-06-26%2012-20-46.png)
+![image]()
 
     - Remove the `VLC` package using `Chocolatey`
 
 `choco uninstall vlc`
 
-![image]()
+![image](https://github.com/Totto9/Powershell_cli/blob/main/Screenshot%20from%202023-06-26%2012-20-46.png)
 
     - Could you use `Chocolatey` on already installed software? How?
 Chocolatey works in a similar manner to how you would do things if you downloaded and installed things yourself. Its design and infrastructure are built that way on purpose. It takes the pain of manually doing it yourself away.
